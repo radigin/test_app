@@ -1,0 +1,34 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Fraction:</strong>
+  <%= @fraction_vote.fraction %>
+</p>
+
+<p>
+  <strong>Vote:</strong>
+  <%= @fraction_vote.vote %>
+</p>
+
+<p>
+  <strong>Number of present:</strong>
+  <%= @fraction_vote.number_of_present %>
+</p>
+
+<p>
+  <strong>Yes:</strong>
+  <%= @fraction_vote.yes %>
+</p>
+
+<p>
+  <strong>No:</strong>
+  <%= @fraction_vote.no %>
+</p>
+
+<p>
+  <strong>Dont know:</strong>
+  <%= @fraction_vote.dont_know %>
+</p>
+
+<%= link_to 'Edit', edit_fraction_vote_path(@fraction_vote) %> |
+<%= link_to 'Back', fraction_votes_path %>

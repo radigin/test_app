@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Law:</strong>
+  <%= @vote.law %>
+</p>
+
+<p>
+  <strong>Vote date:</strong>
+  <%= @vote.vote_date %>
+</p>
+
+<p>
+  <strong>Number:</strong>
+  <%= @vote.number %>
+</p>
+
+<p>
+  <strong>Result:</strong>
+  <%= @vote.result %>
+</p>
+
+<%= link_to 'Edit', edit_vote_path(@vote) %> |
+<%= link_to 'Back', votes_path %>

@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @fraction.name %>
+</p>
+
+<p>
+  <strong>Quantity:</strong>
+  <%= @fraction.quantity %>
+</p>
+
+<p>
+  <strong>Deputy:</strong>
+  <%= @fraction.deputy_id %>
+</p>
+
+<%= link_to 'Edit', edit_fraction_path(@fraction) %> |
+<%= link_to 'Back', fractions_path %>
