@@ -1,11 +1,11 @@
 class CreateDeputies < ActiveRecord::Migration
   def change
     create_table :deputies do |t|
-      t.string :ln
-      t.string :fn
+      t.string :ln, null: false
+      t.string :fn, null: false
       t.string :sn
-      t.date :birthday
-      t.references :fraction, index: true, foreign_key: true
+      t.date :birthday, null: false
+      t.references :fraction, index: true, foreign_key: true, null: false
 
       t.timestamps null: false
     end
