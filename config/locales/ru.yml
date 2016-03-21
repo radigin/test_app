@@ -6,5 +6,37 @@ ru:
       law: Закон
       vote: Голосование
       fraction_vote: Результаты голосования по фракции
-
+    attributes:
+      fraction:
+        name: Название
+        quantity: Количество мест
+        deputy: Глава фракции
+        deputy_id: Глава фракции
+      deputy:
+        ln: Фамилия
+        fn: Имя
+        sn: Отчество
+        birthday: Дата рождения
+        fraction: Фракция
+        fraction_id: Фракция
+      law:
+        name: Название
+        fraction: Выдвинувшая фракция
+        fraction_id: Выдвинувшая фракция
+        status: Статус
+      vote:
+        law: Закон
+        law_id: Закон
+        vote_date: Дата голосования
+        number: Номер чтения
+        result: Результат
+      fraction_vote:
+        fraction_id: Фракция
+        fraction: Фракция
+        vote_id: Голосование
+        vote: Голосование
+        number_of_present: Количество присутствующих
+        yes: Проголосовало за
+        no: Проголосовало против
+        dont_know: Воздержалось
 
