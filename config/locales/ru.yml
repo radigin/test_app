@@ -1,0 +1,10 @@
+ru:
+  activerecord:
+    models:
+      fraction: Фракция
+      deputy: Депутат
+      law: Закон
+      vote: Голосование
+      fraction_vote: Результаты голосования по фракции
+
+
