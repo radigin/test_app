@@ -29,7 +29,7 @@
   </div>
   <div class="field">
     <%= f.label :fraction_id %><br>
-    <%= f.select(:fraction_id, options_for_select(Fraction.all.map{ |f| [f.name, f.id] }, f.object.fraction_id)) %>
+    <%= f.select(:fraction_id, fraction_options(f.object.fraction_id)) %>
   </div>
   <div class="actions">
     <%= f.submit %>
